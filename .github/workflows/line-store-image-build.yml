@@ -1,0 +1,30 @@
+name: Build and auto-publish LINE sticker contact sheet
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-contact-sheet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Check out asset repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install image compositor
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Read LINE STORE and build 16-image contact sheet
+        run: python scripts/make_line_contact_sheet.py --product-id 37344294 --count 16 --output stamps/test-37344294-16.jpg
+      - name: Commit image to public repository without manual upload
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add stamps/test-37344294-16.jpg
+          git commit -m 'Auto-generate 16 sticker contact sheet from LINE STORE'
+          git push origin HEAD:main
+          echo 'IMAGE_PUBLISHED=https://raw.githubusercontent.com/tsukuyomi3356/line-sticker-promo-assets/main/stamps/test-37344294-16.jpg'
