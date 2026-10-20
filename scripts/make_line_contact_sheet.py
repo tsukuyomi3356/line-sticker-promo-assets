@@ -36,7 +36,7 @@ def read_url(url, max_bytes=4_000_000):
 def sticker_url_candidates(page, sticker_id):
     expression = re.compile(
         r"((?:https?:)?//" + re.escape(CDN_PREFIX)
-        + re.escape(sticker_id) + r"/[^\s"'<>\\)]+)", re.I
+        + re.escape(sticker_id) + r"/[^\s<>\x22\x27\\)]+)", re.I
     )
     # Source is HTML; src can contain URL-encoded query parameters.
     seen = set()
