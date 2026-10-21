@@ -17,12 +17,12 @@ jobs:
       - uses: actions/checkout@v4
       - run: python -m pip install Pillow
       - run: python scripts/build_daily_20261022.py
-      - name: Persist public image assets
+      - name: Persist public image assets and manifest
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stamps/daily-20261022-*.jpg
+          git add stamps/daily-20261022-*.jpg manifests/daily-20261022.json
           if ! git diff --cached --quiet; then
-            git commit -m "Publish ten authentic contact sheets for 2026-10-22"
+            git commit -m "Publish verified contact-sheet manifest for 2026-10-22"
             git push origin HEAD:feature/parameterized-contact-sheet-20261021
           fi
