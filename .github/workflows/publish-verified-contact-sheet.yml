@@ -1,5 +1,10 @@
 name: Publish one verified LINE contact sheet (manual only)
 on:
+  push:
+    branches:
+      - feature/parameterized-contact-sheet-20261021
+    paths:
+      - '.github/workflows/publish-verified-contact-sheet.yml'
   workflow_dispatch:
     inputs:
       product_id:
@@ -30,8 +35,8 @@ jobs:
       - run: python -m pip install --disable-pip-version-check Pillow
       - name: Generate authentic LINE STORE contact sheet
         env:
-          PRODUCT_ID: ${{ inputs.product_id }}
-          COUNT: ${{ inputs.count }}
+          PRODUCT_ID: ${{ inputs.product_id || '37344294' }}
+          COUNT: ${{ inputs.count || '16' }}
         shell: bash
         run: |
           set -euo pipefail
