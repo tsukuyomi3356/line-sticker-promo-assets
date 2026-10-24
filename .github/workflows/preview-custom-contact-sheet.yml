@@ -1,0 +1,44 @@
+name: Review parameterized LINE sticker contact sheet (no publishing)
+on:
+  push:
+    branches:
+      - feature/parameterized-contact-sheet-20261021
+    paths:
+      - 'scripts/preview_custom_contact_sheet.py'
+      - '.github/workflows/preview-custom-contact-sheet.yml'
+  workflow_dispatch:
+    inputs:
+      product_id:
+        description: 'LINE sticker product ID'
+        type: string
+        required: true
+        default: '37344294'
+      count:
+        description: 'Sticker count (16 or 24)'
+        type: choice
+        options:
+          - '16'
+          - '24'
+        required: true
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Make authentic LINE STORE contact sheet preview only
+        env:
+          PRODUCT_ID: ${{ github.event.inputs.product_id || '37344294' }}
+          COUNT: ${{ github.event.inputs.count || '16' }}
+        run: python scripts/preview_custom_contact_sheet.py --product-id "$PRODUCT_ID" --count "$COUNT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: line-contact-sheet-preview
+          path: review-artifacts/
+          retention-days: 1
