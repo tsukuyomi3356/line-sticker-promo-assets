@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-23",
+  "products": [
+    {
+      "sticker_id": "37480582",
+      "count": 24,
+      "path": "stamps/daily-20261023-37480582.jpg",
+      "sha256": "bbe2e9ec7f30bf980b64813ba103b9ac79b18284e3a31a67bc84f9fdc3331b75",
+      "size": 1074225
+    },
+    {
+      "sticker_id": "37480572",
+      "count": 16,
+      "path": "stamps/daily-20261023-37480572.jpg",
+      "sha256": "bfe8db611fe3175364e83e5e43cb7d99ef878f913a8e57baf2dd0276956becbc",
+      "size": 657058
+    },
+    {
+      "sticker_id": "37480559",
+      "count": 24,
+      "path": "stamps/daily-20261023-37480559.jpg",
+      "sha256": "e20efe8dba50cafc469723415cdd47767cbe9ff5dd176c39109b4c13944a94e2",
+      "size": 1162044
+    },
+    {
+      "sticker_id": "37480558",
+      "count": 16,
+      "path": "stamps/daily-20261023-37480558.jpg",
+      "sha256": "92d2385a3d3a4216fe5718ab8c86168b4f62af53450446e943dc279ed969554b",
+      "size": 569833
+    },
+    {
+      "sticker_id": "37480543",
+      "count": 16,
+      "path": "stamps/daily-20261023-37480543.jpg",
+      "sha256": "4674d73e4f93691c3fd9cb00dff14c2e585a4565a2380861295187ce06635c7c",
+      "size": 876561
+    },
+    {
+      "sticker_id": "37477480",
+      "count": 24,
+      "path": "stamps/daily-20261023-37477480.jpg",
+      "sha256": "9d7f59c2f2a671a40cf008f1f8f1fe83f4e9df7c7fe8a6c9d30c31406f55e333",
+      "size": 1392143
+    },
+    {
+      "sticker_id": "37472079",
+      "count": 24,
+      "path": "stamps/daily-20261023-37472079.jpg",
+      "sha256": "e7e5a82e6c9d103dd052c82ddc1cbddd831a145c9ff353d90be5405182e64aae",
+      "size": 955623
+    },
+    {
+      "sticker_id": "37472090",
+      "count": 24,
+      "path": "stamps/daily-20261023-37472090.jpg",
+      "sha256": "0c8a998e0940ced6914e343e0252e03c78266d477a9bd6fd9d44375bfea6c429",
+      "size": 1087158
+    },
+    {
+      "sticker_id": "37472077",
+      "count": 16,
+      "path": "stamps/daily-20261023-37472077.jpg",
+      "sha256": "7e96d2f8a634d09d559f0b1e6bb3f194bc0eb296a14144f58b84fdd0f7ebf578",
+      "size": 661001
+    },
+    {
+      "sticker_id": "37015800",
+      "count": 16,
+      "path": "stamps/daily-20261023-37015800.jpg",
+      "sha256": "53dd27c81396415e1b2992d835c6865c30a18012c49175990be4d347145e3f7b",
+      "size": 921987
+    }
+  ]
+}
