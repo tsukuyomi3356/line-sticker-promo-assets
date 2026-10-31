@@ -1,0 +1,51 @@
+name: Prepare nine LINE Threads assets (verified, same-repo)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'operations/batch-nine-request-2026-11-01.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: line-assets-self-publisher
+  cancel-in-progress: false
+jobs:
+  create_assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow==11.3.0
+      - name: Build official artwork for exactly nine approved product IDs
+        run: |
+          python - <<'PY'
+          import datetime,json,re,subprocess
+          from pathlib import Path
+          req=json.loads(Path("operations/batch-nine-request-2026-11-01.json").read_text())
+          expected={"37657820","37657809","37657805","37644101","37635402",
+                    "37635392","37635386","37635387","37635385"}
+          ids=req["sticker_ids"]
+          now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
+          if req["date"]!="2026-11-01" or now.date().isoformat()!=req["date"]:
+              raise SystemExit("REQUEST_DATE_EXPIRED_NO_WRITE")
+          if len(ids)!=9 or set(ids)!=expected or len(set(ids))!=9 or not all(re.fullmatch(r"\d{7,12}",x) for x in ids):
+              raise SystemExit("UNEXPECTED_PRODUCTS_NO_WRITE")
+          day=req["date"].replace("-","")
+          paths=[]
+          for sid in ids:
+              subprocess.run(["python","scripts/prepare_one_sticker_artwork.py","--sticker-id",sid,"--date",day],check=True)
+              paths.extend([f"stamps/daily-{day}-{sid}.jpg",
+                            f"stamps/manifests/daily-{day}-{sid}.json"])
+          subprocess.run(["git","add","--"]+paths,check=True)
+          subprocess.run(["git","config","user.name","github-actions[bot]"],check=True)
+          subprocess.run(["git","config","user.email","41898282+github-actions[bot]@users.noreply.github.com"],check=True)
+          subprocess.run(["git","commit","-m","Publish nine verified LINE sticker collages [skip ci]"],check=True)
+          subprocess.run(["git","push","origin","HEAD:main"],check=True)
+          print("NINE_ASSETS_PUBLISHED_NOT_BUFFER_RESERVED")
+          PY
