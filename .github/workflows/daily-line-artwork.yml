@@ -1,0 +1,55 @@
+name: LINE daily verified artwork batch (same-repo GITHUB_TOKEN)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'operations/daily-requests/*.json'
+permissions:
+  contents: write
+concurrency:
+  group: line-assets-self-publisher
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow==11.3.0
+      - name: Generate only the authorized day's ten official artwork sets
+        run: |
+          python - <<'PY'
+          import datetime,json,re,subprocess
+          from pathlib import Path
+          event=json.loads(Path(__import__("os").environ["GITHUB_EVENT_PATH"]).read_text())
+          added=(event.get("head_commit") or {}).get("added") or []
+          matches=[p for p in added if re.fullmatch(r"operations/daily-requests/\d{4}-\d{2}-\d{2}\.json",p)]
+          if len(matches)!=1 or len(added)!=1:
+              raise SystemExit("REQUIRE_ONE_NEW_DAILY_REQUEST_FILE_NO_WRITE")
+          path=matches[0]
+          req=json.loads(Path(path).read_text(encoding="utf-8"))
+          ids=req.get("sticker_ids")
+          now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
+          target=(now.date()+datetime.timedelta(days=1)).isoformat()
+          if (req.get("date")!=target or path!=f"operations/daily-requests/{target}.json"
+              or req.get("author_id")!="242076"
+              or not isinstance(ids,list) or len(ids)!=10 or len(set(ids))!=10
+              or any(not isinstance(i,str) or not re.fullmatch(r"\d{7,12}",i) for i in ids)):
+              raise SystemExit("INVALID_NEXT_DAY_AUTHOR_OR_TEN_UNIQUE_IDS")
+          day=target.replace("-","")
+          paths=[]
+          for sid in ids:
+              subprocess.run(["python","scripts/prepare_one_sticker_artwork.py","--sticker-id",sid,"--date",day],check=True)
+              paths.extend([f"stamps/daily-{day}-{sid}.jpg",f"stamps/manifests/daily-{day}-{sid}.json"])
+          subprocess.run(["git","add","--"]+paths,check=True)
+          subprocess.run(["git","config","user.name","github-actions[bot]"],check=True)
+          subprocess.run(["git","config","user.email","41898282+github-actions[bot]@users.noreply.github.com"],check=True)
+          subprocess.run(["git","commit","-m",f"Publish ten verified LINE sticker collages {target} [skip ci]"],check=True)
+          subprocess.run(["git","push","origin","HEAD:main"],check=True)
+          print("NEXT_DAY_TEN_ASSETS_PUBLISHED_NOT_BUFFER_RESERVED")
+          PY
