@@ -1,0 +1,47 @@
+name: Publish verified LINE sticker artwork (same-repo token)
+on:
+  workflow_dispatch:
+    inputs:
+      sticker_id:
+        description: "Official LINE STORE product ID"
+        required: true
+        default: "37658242"
+permissions:
+  contents: write
+concurrency:
+  group: line-assets-self-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow==11.3.0
+      - name: Build verified artwork in this public assets repository
+        env:
+          STICKER_ID: ${{ inputs.sticker_id }}
+        run: |
+          JST_DATE=$(TZ=Asia/Tokyo date +%Y%m%d)
+          python scripts/prepare_one_sticker_artwork.py --sticker-id "$STICKER_ID" --date "$JST_DATE"
+      - name: Commit only the verified artwork and provenance manifest
+        env:
+          STICKER_ID: ${{ inputs.sticker_id }}
+        run: |
+          JST_DATE=$(TZ=Asia/Tokyo date +%Y%m%d)
+          git add "stamps/daily-${JST_DATE}-${STICKER_ID}.jpg" "stamps/manifests/daily-${JST_DATE}-${STICKER_ID}.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish verified LINE collage ${STICKER_ID} [skip ci]"
+          git push origin HEAD:main
+      - name: Verify committed image hash from its manifest
+        env:
+          STICKER_ID: ${{ inputs.sticker_id }}
+        run: |
+          JST_DATE=$(TZ=Asia/Tokyo date +%Y%m%d)
+          python -c 'import hashlib,json,os,pathlib; d=os.popen("TZ=Asia/Tokyo date +%Y%m%d").read().strip(); i=os.environ["STICKER_ID"]; m=json.loads(pathlib.Path(f"stamps/manifests/daily-{d}-{i}.json").read_text()); b=pathlib.Path(m["image_path"]).read_bytes(); assert hashlib.sha256(b).hexdigest()==m["image_sha256"]; print("PUBLIC_REPO_COMMIT_VERIFIED_NOT_BUFFER_RESERVED")'
