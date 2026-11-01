@@ -28,20 +28,13 @@ jobs:
           import datetime,json,re,subprocess
           from pathlib import Path
           event=json.loads(Path(__import__("os").environ["GITHUB_EVENT_PATH"]).read_text())
-          # GitHub Contents API pushes may omit head_commit.added. Inspect the actual commit.
-          changed=subprocess.check_output(["git","diff-tree","--no-commit-id","--name-only","-r","HEAD"],text=True).splitlines()
-          matches=[p for p in changed if re.fullmatch(r"operations/daily-requests/\d{4}-\d{2}-\d{2}\.json",p)]
-          if len(matches)==1 and len(changed)==1:
-              path=matches[0]
-          elif changed==[".github/workflows/daily-line-artwork.yml"]:
-              # Recover only the current next-day request after this guardrail fix.
-              now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
-              target=(now.date()+datetime.timedelta(days=1)).isoformat()
-              path=f"operations/daily-requests/{target}.json"
-              if not Path(path).is_file():
-                  raise SystemExit("NO_CURRENT_REQUEST_FOR_RECOVERY")
-          else:
-              raise SystemExit("REQUIRE_ONE_NEW_DAILY_REQUEST_FILE_NO_WRITE")
+          # A request file is immutable and must target tomorrow. GitHub push
+          # payload file lists can be empty, especially for Contents API commits.
+          now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
+          target=(now.date()+datetime.timedelta(days=1)).isoformat()
+          path=f"operations/daily-requests/{target}.json"
+          if not Path(path).is_file():
+              raise SystemExit("NO_NEXT_DAY_REQUEST_NO_WRITE")
           req=json.loads(Path(path).read_text(encoding="utf-8"))
           ids=req.get("sticker_ids")
           now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
@@ -52,6 +45,9 @@ jobs:
               or any(not isinstance(i,str) or not re.fullmatch(r"\d{7,12}",i) for i in ids)):
               raise SystemExit("INVALID_NEXT_DAY_AUTHOR_OR_TEN_UNIQUE_IDS")
           day=target.replace("-","")
+          if any(Path(f"stamps/manifests/daily-{day}-{sid}.json").exists() or
+                 Path(f"stamps/daily-{day}-{sid}.jpg").exists() for sid in ids):
+              raise SystemExit("ALREADY_PREPARED_NO_REGENERATION")
           paths=[]
           for sid in ids:
               subprocess.run(["python","scripts/prepare_one_sticker_artwork.py","--sticker-id",sid,"--date",day],check=True)
