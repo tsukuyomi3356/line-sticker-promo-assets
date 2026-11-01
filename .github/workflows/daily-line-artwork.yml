@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'operations/daily-requests/*.json'
+      - '.github/workflows/daily-line-artwork.yml' # one-time code-fix recovery, guarded below
 permissions:
   contents: write
 concurrency:
@@ -27,11 +28,20 @@ jobs:
           import datetime,json,re,subprocess
           from pathlib import Path
           event=json.loads(Path(__import__("os").environ["GITHUB_EVENT_PATH"]).read_text())
-          added=(event.get("head_commit") or {}).get("added") or []
-          matches=[p for p in added if re.fullmatch(r"operations/daily-requests/\d{4}-\d{2}-\d{2}\.json",p)]
-          if len(matches)!=1 or len(added)!=1:
+          # GitHub Contents API pushes may omit head_commit.added. Inspect the actual commit.
+          changed=subprocess.check_output(["git","diff-tree","--no-commit-id","--name-only","-r","HEAD"],text=True).splitlines()
+          matches=[p for p in changed if re.fullmatch(r"operations/daily-requests/\d{4}-\d{2}-\d{2}\.json",p)]
+          if len(matches)==1 and len(changed)==1:
+              path=matches[0]
+          elif changed==[".github/workflows/daily-line-artwork.yml"]:
+              # Recover only the current next-day request after this guardrail fix.
+              now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
+              target=(now.date()+datetime.timedelta(days=1)).isoformat()
+              path=f"operations/daily-requests/{target}.json"
+              if not Path(path).is_file():
+                  raise SystemExit("NO_CURRENT_REQUEST_FOR_RECOVERY")
+          else:
               raise SystemExit("REQUIRE_ONE_NEW_DAILY_REQUEST_FILE_NO_WRITE")
-          path=matches[0]
           req=json.loads(Path(path).read_text(encoding="utf-8"))
           ids=req.get("sticker_ids")
           now=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
