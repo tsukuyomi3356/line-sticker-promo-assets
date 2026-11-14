@@ -62,5 +62,9 @@
     ],
     "method": "imagegen_reference_composite",
     "notes": "対象作品の公式画像2点を参照し、絵柄・色・元文言と架空の会話を目視確認。"
-  }
+  },
+  "image_path": "stamps/daily-20261114-37701264.jpg",
+  "image_url": "https://raw.githubusercontent.com/tsukuyomi3356/line-sticker-promo-assets/5a83fe384dcf637cfe169a12bb31d87d30704c85/stamps/daily-20261114-37701264.jpg",
+  "conversation_image_path": "stamps/conversation-20261114-37701264.jpg",
+  "conversation_image_url": "https://raw.githubusercontent.com/tsukuyomi3356/line-sticker-promo-assets/5a83fe384dcf637cfe169a12bb31d87d30704c85/stamps/conversation-20261114-37701264.jpg"
 }
