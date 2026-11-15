@@ -1,0 +1,741 @@
+{
+  "date_jst": "2026-11-15",
+  "author_id": "242076",
+  "note": "All five prior conversation-image works were used Nov14, excluded. New ten works verified from official sale pages and exact official sticker PNG sources. No reservation workflow triggered.",
+  "items": [
+    {
+      "sticker_id": "37932819",
+      "author_id": "242076",
+      "title": "スーパーのレジ列あるある｜買い物連絡",
+      "sale_url": "https://store.line.me/stickershop/product/37932819/ja",
+      "share_url": "https://line.me/S/sticker/37932819",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37932819.jpg",
+      "conversation_sha256": "aa5d117e995862bd4463ff618c05b04c04a95cab19e8fb601a6baf8d24ac3bfa",
+      "catalogue_path": "stamps/daily-20261115-37932819.jpg",
+      "catalogue_sha256": "8116d07d084bc5e84a97b438ee6d4ac04223cdec23f08bc3c6bf00a0609c6196",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399985/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399986/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399987/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399988/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399989/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399990/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399991/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399992/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399993/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399994/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399995/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399996/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399997/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399998/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399999/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930400000/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "939e94f67f3e186ec02a22baa4e8c956fc8c98c7a24fbf9e03a08c980db5f358",
+        "5a9e13fdbeb55b47d0f70d240284036c979301361b743f629d5c15a6f1094161",
+        "6535d73ff1f2acb6f79e09a34f0c966694c87b11f63a37eed004c65fef3226b8",
+        "ea97b2e512aae4639d780b859490acb21a6bc44c07b901846106395f0b3f41e2",
+        "2a5c6ea9eef5667ea2ee413242f0b0979a1b21d56d4fc750f2e25c7601dd21b7",
+        "408e782f2037f1852a788c6d096a7e4aef74919c6a8111a96fcfe0adde78f6aa",
+        "6873e8425c3fe674d74698265a37cd36cc6a108abf7f1394d272491a45f27a51",
+        "7147b7339c736431e1fb5c522d068d038a17ba2416fe622bcfabe2d26aac9eee",
+        "26a6ec1419065c2613ff0eeda2831cc88b25827040aa617edc7db86d3fc138f4",
+        "2309af8abd9d5301bff22853ea9ad7be5463a6be2af5789b57a5855ec4c99b44",
+        "06391020691351144d427c1fb6be2ef6dc266d0a090630714be932fdf4139811",
+        "a60d19ce582f78170dda80c6fc800a7b359ba98091241dfa7f6ea45ed604dae5",
+        "f7c027c335c06609401f538d31fbdba8850f9d681eb05b656e1e3d97bc5d4310",
+        "eeea0340a8c15019553c693cc28f888e4c9ffae239bf2adc2875779ae4a4574a",
+        "bcdae6838e03b68045133ba0348f778e0b147fa80812ccd805fdd255d490cd42",
+        "e1a518db549138454db0c7624bb57d093edb86b31c68d1b6456f95667fe850ba"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399985/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/930399986/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "939e94f67f3e186ec02a22baa4e8c956fc8c98c7a24fbf9e03a08c980db5f358",
+        "5a9e13fdbeb55b47d0f70d240284036c979301361b743f629d5c15a6f1094161"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37777926",
+      "author_id": "242076",
+      "title": "大好き｜恋人・夫婦のラブラブな気持ち",
+      "sale_url": "https://store.line.me/stickershop/product/37777926/ja",
+      "share_url": "https://line.me/S/sticker/37777926",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37777926.jpg",
+      "conversation_sha256": "d0fbac710ba220d6db806b93aa4a68f157af187b5a8be16409f500a5ea6791d8",
+      "catalogue_path": "stamps/daily-20261115-37777926.jpg",
+      "catalogue_sha256": "30a2a5e0bf75ea1df0d7ca83db367fffc1efb6ba727fd12bccdaa6a6e434c168",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589697/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589698/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589699/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589700/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589701/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589702/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589703/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589704/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589705/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589706/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589707/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589708/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589709/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589710/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589711/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589712/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "b95e7e6be2d04881a323e02bd10622bacc96341acdd515b17c71278edadac625",
+        "d7226a2ed5297e47b6172cf875d8a949bf02b0fe5507f616095dbe5438b8350b",
+        "c2928885dd130051f74cd8b4834600dc377239b0b5809e3c7b08023e42c8f83d",
+        "2f3b8986fb683fd9d698e76346feb72a5ed12882ff75ebdacd0df19414b659d4",
+        "d30907f03dd25027e5a67391f1f27092d242fb9fe5a7517fd114731dcb277716",
+        "b551d03c2ec11d4850cfbd548397cf521089944b0f2a7eafd29f742acb6a6b29",
+        "bd7cba42682a1410281425bee80782ec7a6b70b92dc9dd5d8ef53781999ba3b7",
+        "4803c66f510c4e8054dbfa8570b5a4b2270d1371dfcdef80ab3562092c89b927",
+        "0efe1f37a5ad06f0184ebcd8e464390efa1efb3272c3a89cbe9494c35b697769",
+        "b7013a5e0291b85de25f162636c3116f002168043ce5a198b3220207dd22c01d",
+        "0a140885d90cbf8db623f5e18d028de332f0ecd8dda1d8ee771a3be8ad4e7bc1",
+        "845020ce7acc6936cec1ddfc8567d696c0b8e6d41e81f2608c8fd12df009d063",
+        "8144cb17b56108b107a0cbccda1facc826ee2bb9e0b9cf241af57e0490d03779",
+        "4baf784f3a7c614f553d8b45128d98a0893642f052a2ad31476538bf76e40efe",
+        "ac50bb56bce4686bcadbc6aba34ea414c635e57d3e99eed4f122771143cb8db1",
+        "57e35337239824aaa385d21efe915e7569fd3309629f4eccb750e7ff9e9b8637"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589697/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/926589698/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "b95e7e6be2d04881a323e02bd10622bacc96341acdd515b17c71278edadac625",
+        "d7226a2ed5297e47b6172cf875d8a949bf02b0fe5507f616095dbe5438b8350b"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37714986",
+      "author_id": "242076",
+      "title": "返信不要・既読だけでOK｜連絡と共有",
+      "sale_url": "https://store.line.me/stickershop/product/37714986/ja",
+      "share_url": "https://line.me/S/sticker/37714986",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37714986.jpg",
+      "conversation_sha256": "2e4e940b2586ee98ebd9742ae899b73454f145391884b967174352e5c8697a91",
+      "catalogue_path": "stamps/daily-20261115-37714986.jpg",
+      "catalogue_sha256": "ea84380816c5f9195c2d8f4a191383d09f86fa595cd4aa1910c43437bc030071",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100793/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100794/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100795/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100796/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100797/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100798/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100799/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100800/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100801/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100802/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100803/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100804/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100805/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100806/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100807/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100808/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "fbae7e12efeef38aedd752a7bc48270c047a5fc8c7ca2ae5c6194c1fb71355d1",
+        "86954eedd7f22e772d71824f7144e9e8590d08403e91c7fbf26e570bc0f626b0",
+        "c3e16b4f4ca35f2d6e2cf491deb01e1f8b8d76be48fb0f443f050d3c93158ccc",
+        "8a724dba43da83d9a91d87eeafb5200c2f23db781efdb5dae30cbbe1106aeb84",
+        "8fa7b94b6cc8a5554b4216d1a70d7a9cb85bad56b1fd6724d27fe89c61b0ab4d",
+        "c38ac7908ed7e57238ac5883c4b28a509374299ac8e634b8424e0532496d935e",
+        "e956e07d1594094264de56b98bd2c15d97aa1975259cc88e7198de543a6a06a2",
+        "962a14f52fba03944ea24741cce1d39f3e21436d2d9a57dc78ba0640074e1326",
+        "4de2050abe4e1aff77b67d3396bd2a538fa34411c944c90118e2cf122cda7c7a",
+        "220e6c51690007b3a9fcc47afda28194942dab665f7da815241779a49e6d9fcb",
+        "aef0a52d05d1833f611053b4ec757f96706ebd74c4617d02d37ea9a163b51654",
+        "e9daba34257b5b493a0a05189021912b0e33c1bc5ad5efd2c72e9afff9494291",
+        "bf6bf1fbaad4d61d3743769670b56a7f7f4665ebc4915c4393dd712f403103c2",
+        "592b9d6e384a3cd738457ca3b2354a0b5315e519c2189db535f139874ea9dde0",
+        "0995dad8b4ec41b513c03709035c70373d0cbb1229e76b2424d29d4be4cdfc42",
+        "83969527e3b8d745eca4cd711c552b9a63e6ce5f3f97c7a51d0c4dc08f3786f3"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100793/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925100794/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "fbae7e12efeef38aedd752a7bc48270c047a5fc8c7ca2ae5c6194c1fb71355d1",
+        "86954eedd7f22e772d71824f7144e9e8590d08403e91c7fbf26e570bc0f626b0"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37713548",
+      "author_id": "242076",
+      "title": "節約・支払い・割り勘｜招き猫のお金連絡",
+      "sale_url": "https://store.line.me/stickershop/product/37713548/ja",
+      "share_url": "https://line.me/S/sticker/37713548",
+      "count": 32,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37713548.jpg",
+      "conversation_sha256": "644c796187978b9dc2a71ec5dcc7f8478c4bb5dc0b64434316d5a8870ee8e173",
+      "catalogue_path": "stamps/daily-20261115-37713548.jpg",
+      "catalogue_sha256": "1816be90a4f2e053013856f15a28b89568510563ffea71bccdbdb6fa1b4c38a5",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062817/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062818/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062819/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062820/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062821/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062822/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062823/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062824/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062825/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062826/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062827/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062828/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062829/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062830/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062831/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062832/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062833/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062834/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062835/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062836/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062837/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062838/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062839/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062840/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062841/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062842/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062843/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062844/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062845/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062846/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062847/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062848/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "ce2106c2a8f8109b0f56abb7d6a602dcc5d39f0334247dd99d0c15e7104f2ab1",
+        "3a21e9da04b2f4860f265197fe15f3eadd561b0c40bfcd1797c0f1944c745669",
+        "80a2633662dfb9a7bfb883fef4643bb9c2d3416ac77d96504b8e0d60535c6796",
+        "f2e3c29785ba9f053d9f59b57a963a9ad74c081a397131b95f772167af398a17",
+        "3b703f359b8621ccffad91ab926238234f0b4131d963c5ebdd97c33f681fb626",
+        "deb806e3d01d3fc6c2cb7ce9f42b650b4991c5886dcb4ef2cf317cfbdd6f46ae",
+        "8e99abf72a9f296e58221faf2a989158bff326c57d78ba36cbdc0af32f80c1bb",
+        "5c662d0197bdaed3a9d1bf283b3fd8329927ee7d6c5c8535e4f469cccdc8fc03",
+        "12ff940215d1eb63baa985ebcbcc1b51c95fedcc9d8f12e5c7e1c4225d308e0a",
+        "ba03f2229e08a94fb2de442d0fa80a9f5e37f5d5e4902195cf3b109297e5513d",
+        "81e22eeb157af1c5487e66ce2b16460424693eb3c94b6f8f2d444d46d0ff471a",
+        "f9fd941919fc1f3efafaa7457cd95696f544ccb26927b983f4b57060b7d6d4a3",
+        "2c8565152dd7f4bd1c81304da111a7703169e83d46e3b9d21350820106025b74",
+        "d09a2a550f0789ff00f3821c513b575fb0028a3f1bcafb02303381a14dcc9555",
+        "53a44c16c35c3cf896bbd277386cad35c64c965e076da00d4b6142b2fb26363b",
+        "7daf306ce9f10a07c966e27d0a371603191b466ac0ca266861bc6c042f86db92",
+        "4a39f493b4b7d0511e67482dd0e5e7b1e544e315bae8bad0191e4ad1aaf8e9df",
+        "88a689c498cda2976c30688292a0b66e6fb7a8b2b1a8f203f51133c65095d6d2",
+        "0c7c6ca1d0663a4c4483b094337a3b53e58cecb2d19c855978699278aaaecc6a",
+        "f9fc177ac5b98005653df6b94fb22fd187606bb0dc410b2cd6af353a76b092f1",
+        "ea60f3d501c3ab72b1d9d53f3382266d81bed48568931381bc1b534d98c3d8c8",
+        "9cf88682d687bf928d90865fc522566478ba345ea602582eaf1d301faafa57c7",
+        "d1e9c1adf56a220b9f22a34280d15cd87a0a7d4289627b2aff9482535c942c9c",
+        "c94d2b1db57a3d349e0c158a6c0110784539afd4bb20a0dadce387db03df5826",
+        "1bd0bb7cd1b77c9727b20de219540e0652aee707b59d91b204407b957c3dac54",
+        "9bacfdfa52a7dda69cb0cd71c5a03267e7bc8db7d12db3872946572a611f767d",
+        "af243a7040e573c3d8d7b28cea2a983baa80f1d716e544e2997a9ce786fff6c2",
+        "28e8d2d803870c00ca081aa8a32d533cdc94b2f869eea9dfa2272373fd279277",
+        "e43304edec792e30a12a0d1d1c7df146d10d49198cd19c8c161981ed75356c9d",
+        "6a1b44a92cb62e6c45b06828e2d9788addae535289d980ff6f3a57218ae04cc1",
+        "db9d53ab731f16ecba5816628a49823095194fad72d70e56a9b20f98484f333e",
+        "d848cabbd998edadcbd3795c1386b96341adbb836ce92f3379de22c0323e759c"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062817/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062818/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "ce2106c2a8f8109b0f56abb7d6a602dcc5d39f0334247dd99d0c15e7104f2ab1",
+        "3a21e9da04b2f4860f265197fe15f3eadd561b0c40bfcd1797c0f1944c745669"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37713527",
+      "author_id": "242076",
+      "title": "洗濯物の取り込み・家事当番の家族連絡",
+      "sale_url": "https://store.line.me/stickershop/product/37713527/ja",
+      "share_url": "https://line.me/S/sticker/37713527",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37713527.jpg",
+      "conversation_sha256": "341c9da5e76078d14e7b256c62e01f95db747d8657f59884f0b764f3b5daee1b",
+      "catalogue_path": "stamps/daily-20261115-37713527.jpg",
+      "catalogue_sha256": "cbadb87beb46ddbeb34f83bdc6d2f4ab3b6c7b54e3c118ffa3f93d698c36f85f",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062409/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062410/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062411/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062412/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062413/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062414/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062415/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062416/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062417/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062418/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062419/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062420/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062421/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062422/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062423/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062424/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "2c4adbb7ec22a1bb3f2258e4b4d74311ca76278f78fdc2aaebb0d53f44a633e0",
+        "ff242b63ead94e1d0e7a877d21a4b9485da238557dead06930509fca81747818",
+        "04a92a81f5bfd71efb33b6653e14c7ae8006a4f390d29b0bea11ebc5be9ac204",
+        "a37ae52f986ad5e02575f928b0c33a4462fffe5ad7a1d630b9a885b891033de9",
+        "2d4728fd0d162947ab34f08383ce7e330153dc3cc5e8771b55f10d3636a397e4",
+        "af022991f27edfeb8b7d1679a4098b4de4289e271ac6ad3c53a0ea538bea5eec",
+        "7f9a16dda719b667c2506ef6d9fa5675a2de058e8060c022f4bed5870de621a8",
+        "9911714bb579bce4abcd4989a5191c5508dd2888975599e23a4db34460414987",
+        "096f15ef0a8ac8f2841b1c89a6c2e2156d2cfae0a9f4b575bef1829ab1f9d080",
+        "480d5ab2af62a84a6e0ef83f23aea4f707ba574817db9232c50439b6247a6574",
+        "cc738c6becbfed214020539f14949063b18ac45e02fbb47e68d696e32fae0d42",
+        "7a592b12c32642037364f719fef34cbf299a46cd41899312b283594b55267b96",
+        "865b76ebdba438ceb1ddc12c5fab3d512d17a5826d7281b632fb9db2deaf07ad",
+        "24225f8dae6144188e9718c7fb2cd38d3883e282c6d0517fe441a674a3b22c01",
+        "7114719dbca29b7574a9ac5ceac9e26b6669cd1adc1381d03c69ce93f65bd81c",
+        "4db2f60b1bad4e7ff14988a6186249ae6bbade9fe409e3d3d163b903e74448cc"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062409/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062410/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "2c4adbb7ec22a1bb3f2258e4b4d74311ca76278f78fdc2aaebb0d53f44a633e0",
+        "ff242b63ead94e1d0e7a877d21a4b9485da238557dead06930509fca81747818"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37713509",
+      "author_id": "242076",
+      "title": "お風呂入る・出たよの連絡｜カピバラの返事",
+      "sale_url": "https://store.line.me/stickershop/product/37713509/ja",
+      "share_url": "https://line.me/S/sticker/37713509",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37713509.jpg",
+      "conversation_sha256": "ceeca4c9ea0672d8541e1f61df3fb20ad9780c55186530219604f9a7401aa614",
+      "catalogue_path": "stamps/daily-20261115-37713509.jpg",
+      "catalogue_sha256": "691f6a4017305ac442ba4be50bc44868945afa24eaaa2f21552c118784b83db1",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062009/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062010/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062011/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062012/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062013/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062014/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062015/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062016/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062017/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062018/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062019/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062020/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062021/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062022/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062023/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062024/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "26e70dd50f711596712db41388e00fb888bec1dfa5df3053f73b93053a6c3aa4",
+        "a02219a217241434383d19bcdd6e8c8c421b6cf74cd6e7918be4ca334d6ca239",
+        "e9650727259d1a486c19e9ea26fae239207e1d25240dd2779bbb805af49cd654",
+        "4575a91ee2aa717b76dc2a5cf6b1da20fdce72e4a78552ad2b697e335a902fcc",
+        "792391d584ce5826348b4e0b7dece2e3ae2c7e34dc4b02e3c1fe4ba53e49036a",
+        "e641055325ea152c247d4bbe1e2ae8792727cf7bc53f733aacb2cddcd0c9cfe0",
+        "e382bccd54f0ae9f01b92a10bf0f7e6bd06c161ca76dd10c05be44bffc61fec7",
+        "64841ce7df794c211f66a1ea647e698b30573f39d82fe9802b5d62676a37f013",
+        "3362b9e0cfdf61598246230b73e3c9e8f61393ac0ee1d3b6adb7cba5f4e9a305",
+        "cd6e8d588a35c613e24d182f5a1856dd40ecabc8fde7747f153f15a9a20bba78",
+        "2c184517ed331294ec04ff0d9416cd5fe67642023f6ff457b2f4b329eae918e5",
+        "cd87b80b0250d2b6d5f30509b767f750677cc38520f304c3e6805fa1419ffcab",
+        "16a2a07d80e877cdfa2151c05c7acdeff3a677b297cb53e624ea25b9f01d7be9",
+        "d174e69b315ccdcafcd45d1fe0aede91c7cc2d20f937e3a1c5b12dd1964d92c4",
+        "e98d8d002462f096cb98d003ae69f64274212e98bfd8f8e0bc33f77a6887a973",
+        "15152e1b04e4cc9c828f1eaf27565e772f253c9f9b36341bbe22f1056a58ca8e"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062009/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/925062010/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "26e70dd50f711596712db41388e00fb888bec1dfa5df3053f73b93053a6c3aa4",
+        "a02219a217241434383d19bcdd6e8c8c421b6cf74cd6e7918be4ca334d6ca239"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37701266",
+      "author_id": "242076",
+      "title": "ペットのお世話・引き継ぎ連絡｜三毛猫",
+      "sale_url": "https://store.line.me/stickershop/product/37701266/ja",
+      "share_url": "https://line.me/S/sticker/37701266",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37701266.jpg",
+      "conversation_sha256": "969943fd24e97f9887abfa6190129ed40e23db54d07c27b0322a3bd65a29ed52",
+      "catalogue_path": "stamps/daily-20261115-37701266.jpg",
+      "catalogue_sha256": "7346c8c8c5c40f721938b6bb4963703b37d404b0d41d5a68dccfc98cde6c0690",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775321/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775322/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775323/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775324/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775325/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775326/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775327/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775328/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775329/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775330/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775331/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775332/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775333/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775334/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775335/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775336/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "df34ef7ccae610360d286b228e1b642b4c4de30333b40750f4c169355c719d1b",
+        "0ada913c024db28eb3f7d366f2bde38faf8de060c3c6aebd28507a088770b989",
+        "1a8640300cae33244f83d1641c8a72cc9ce112cc81a96df2e9bb62692a135ef8",
+        "8e05679a27bb81fdffbbf19dea1b081f91ada8ec2e480ca608b1a9c17bf1c1d6",
+        "b0fded36eecccadc46b9da7315fe00eb11c824f08f8a577ce22f1af664860d00",
+        "d5adfec4cd7a89f4b21c7c54c4056021fdb5aed305fff9da85e08d5575993fe9",
+        "41ffbdcb4e15bbf8b5f8cbf2a9a7821ce16a081ba7765500db4049d33699a4ee",
+        "02ad03f46460d4dea8592b59189cf1bed778100d7075097b3493b0549a582825",
+        "3513057ab4e8a17cbe096f63f0d9df2061ca28e50ab6c1981c236b167eb9187e",
+        "ea52f1c45014bd49e92bad849ed1971c91f2864db93672ad6873df8156922dd8",
+        "baea9b9fae89f27475334cfe495c045e02e5e5fdecdc7f97c3933994fb39ab55",
+        "b8eadb666275ee1f35145143acb31b4feab757e2d63d9b38e297e761808a3c0c",
+        "f34e13ae889c79cebbe89dee8ea46757263805582671ffa0a8c6cbed2324c9b8",
+        "58ee657df3886db8384cae49bf7ae5c410e49934d3b963e70ddf0c4aa6472ed4",
+        "aa1b79d37e5524f6bf061a04ffd8c9f5b18ca59100d39529de1495ff017a0953",
+        "51e34a9df7deb49bf68a83d67d7cb595653aefae51ac46c50b41bc1f48e6a035"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775321/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775322/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "df34ef7ccae610360d286b228e1b642b4c4de30333b40750f4c169355c719d1b",
+        "0ada913c024db28eb3f7d366f2bde38faf8de060c3c6aebd28507a088770b989"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37701262",
+      "author_id": "242076",
+      "title": "相談を聞く相づち｜寄り添ううさぎの返事",
+      "sale_url": "https://store.line.me/stickershop/product/37701262/ja",
+      "share_url": "https://line.me/S/sticker/37701262",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37701262.jpg",
+      "conversation_sha256": "b39f57a6996cdbedf0671957d4743d189d4c7333b8332a1b34b344072572f3f5",
+      "catalogue_path": "stamps/daily-20261115-37701262.jpg",
+      "catalogue_sha256": "c9eab172a522dd96f4ee6638d405a49c571d027393ccf7ec3d62b1e854ce1cb0",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775257/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775258/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775259/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775260/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775261/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775262/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775263/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775264/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775265/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775266/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775267/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775268/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775269/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775270/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775271/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775272/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "99d116d487e6224b2c347dac7c9a980d7f56f8557d5465b8d9a6ccff5f2ade56",
+        "1cb290e3f3d3aa9cf34632c60e5c5c1f17a59bda9a391dfc60f6a55f71982134",
+        "39475847cd0b6a5df4e6598da5dde5213cc3d877becedead524a26e7ccc82fcc",
+        "c9e206f6205584b330ec6f1af441668e65eb9c168e77d172264dc354e1f604de",
+        "9566164c7611d36f61b65357ebdebd90fad551ae283fba6ae1bb7da439f43271",
+        "bf5e04c2658921f6156c2db30017a6f23d9063678e9dd3ca942697791b11f240",
+        "98cadde1fe512d77200f948ab3aa50a572e9d178596c731519d31fca87123f26",
+        "daffbfac0f466c275177ac1eed049e123fe8aaf5cfaf06221b0addcdc09fa736",
+        "69b4442fe9b434b826c7212d95195c72ce3f5177b74f61fccb64fc60881af5c7",
+        "2b540e3b7f311f5ea193bb830be2a59ded5da035422f81863a0003f4465019ee",
+        "dfa87b8986e23d1f216bfb9a569881bad420d71f5699f3b2f785b8f323908a41",
+        "14b3d1f06315434c41b5073760ab8537af10a392ee95aa92efc7f06681de9abc",
+        "3fec54b7c0dc4cb4ec4de24173dbc76becca4b72d0f8e60ac5228b66c062b5aa",
+        "9361b13033a12d245d924f739d34efc0beb4aa1266290016753ecdc26e6da9d3",
+        "412722adffcd3bc0e1805ed52432a6dd0964e3ddc9ba311a36369fad14e2cc3e",
+        "400db84eb022735651bb1e5d93569428015b56fa1e290028564a7ecf9a4d9c7e"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775257/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/924775258/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "99d116d487e6224b2c347dac7c9a980d7f56f8557d5465b8d9a6ccff5f2ade56",
+        "1cb290e3f3d3aa9cf34632c60e5c5c1f17a59bda9a391dfc60f6a55f71982134"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37582442",
+      "author_id": "242076",
+      "title": "宅配便の受け取り・再配達・置き配の連絡",
+      "sale_url": "https://store.line.me/stickershop/product/37582442/ja",
+      "share_url": "https://line.me/S/sticker/37582442",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37582442.jpg",
+      "conversation_sha256": "056363ba7bb673f5d3ea756c67df0fe16787766d36ebdc25e1c17fd15aeced0c",
+      "catalogue_path": "stamps/daily-20261115-37582442.jpg",
+      "catalogue_sha256": "01580aeb84d55adfc2e0f1e6a753a27070e77788d27569f315050e091ae70131",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853465/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853466/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853467/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853468/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853469/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853470/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853471/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853472/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853473/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853474/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853475/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853476/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853477/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853478/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853479/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853480/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "d0ecf7b53dab5f7c4bc9d4e59dede55eb9310242163ce82241a4fbfe524c8b71",
+        "c5a00bc44c8e42e8535981786a6f76491863e6a8159e15536658fa59cc200514",
+        "b0d4cb24108039b0c84933b5fa8a74bd2b992cafc6732c84e7f9315f1173c660",
+        "0d9dc44821b6174dcac0e8a80cb94cc1c09e762aefd9a27ee84354b5641e8f52",
+        "13ea488dd47f235cb3a63af28ddee4e1cf0b703024cce9089f4ab83651c93ae5",
+        "a1085cacd03147dbee847a46f0ab1108902e3772276109ed3cbc0f93a52f360b",
+        "feea56eaf278157f66daff119bc143ed82c6f5c6a21a9c09e285b417c7088261",
+        "23e1cae5fc3b72abe6b674fd862a9a7865e25177d6fd2fd2c4cb989f5386042b",
+        "44abae9bb5f3cc708c5bebec0bf001caac5c87e210abb5ebd805ba37ecf36189",
+        "37a82a111e884a7cbbc42229c6dd9e7dbf65b3c282fdf93e4d435d44a0337670",
+        "bf4ad414832c3043abb0273c4c6e46cc5cd17a80186892fa8735e99151b8ae24",
+        "0257146c05e6f522e9c8fa4cb17da1cd0e229a2912159b8142a8924198d81d16",
+        "2a893e7e00e1818aaeff041310884e27bafa7ce2567f2038a1deb8f7961bec26",
+        "9676a460e5f975eea32dfce9a40bc136174e9dd7627f55e58aecb2cd23fc76d8",
+        "f0211d785c05407bb65aed8c55ec160f7aa615bdc3f2476302d6867a83248b50",
+        "1db26cc708880f542b03eef92346c24e14c65628c598c762da2de4642735fa79"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853465/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853466/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "d0ecf7b53dab5f7c4bc9d4e59dede55eb9310242163ce82241a4fbfe524c8b71",
+        "c5a00bc44c8e42e8535981786a6f76491863e6a8159e15536658fa59cc200514"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    },
+    {
+      "sticker_id": "37582437",
+      "author_id": "242076",
+      "title": "忘れ物チェック・持ち物確認・外出前の連絡",
+      "sale_url": "https://store.line.me/stickershop/product/37582437/ja",
+      "share_url": "https://line.me/S/sticker/37582437",
+      "count": 16,
+      "author_and_sale_verified": true,
+      "threads_image_layout": "conversation_then_catalogue",
+      "conversation_path": "stamps/conversation-20261115-37582437.jpg",
+      "conversation_sha256": "0bd20afd4666ee0cb062183a1b2d7aac069d7a9048198e9dc5bf53074ed9bbf1",
+      "catalogue_path": "stamps/daily-20261115-37582437.jpg",
+      "catalogue_sha256": "e58febabf2eabe2c55e496773964c9bc602f069861d954ea6de01438955fb2af",
+      "official_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853329/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853330/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853331/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853332/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853333/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853334/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853335/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853336/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853337/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853338/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853339/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853340/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853341/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853342/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853343/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853344/android/sticker.png?v=1"
+      ],
+      "official_source_sha256": [
+        "2766e065f6e75aadefbdf7ed062478bad07a8de75c1084318ad95af957a8212a",
+        "e1199de5faa9a98d3dd55bcfd3994be13dcabc23518fc20d9949dc75c10ad0e7",
+        "15a33c9d748011959c2888e40f152113cd690560cdfd93258eff0c0bd707e55a",
+        "68c9c1592ce433610d6568d33c0e61d0c1e8442714ba04626fab192e69613f6e",
+        "2d26927777b7dd72e206ba0150d26e033ff4c6e616435211c01d61c3bd7491b8",
+        "ec258ce7d93cc9de2330421b65daa779b6cf042db51c7fff7f3875b9b5db535c",
+        "c1f24e50e7b272adba30c3c4e8486e9b6abe170e07a8d034204f6cb7a8440169",
+        "09770d128f776acc6f8d1f82f915a3e3e0e2c88175e020c0ef792fb3678b868d",
+        "f162ec17ee6142820f7063d42fa3eb93885c8d13d4ba805fe4f29080fbd1071f",
+        "9a8dd7057130c1b059e39cceafd7375d79e28e4da3799eaafbc6d59ab2343fa6",
+        "e207d21eb475ba99a7fba8c107e7743abe46bcc4664ce6f02b65cdd632923003",
+        "854b3fe1fe49f109c4930d816dd6d28530c8d237c6b1123d23f7491c1738f748",
+        "200e94d306dedd6a5b3eef06741ac38926093fcf9dbe8f77877e69b837d01ffa",
+        "a67b43fa7cfd1c990a0b4aab66ca797e2f17063775b2f25622f952442e3a6d86",
+        "a51bfe8bac7455edfe410b0dc50627c4b192fb80a892c2520362acd4bd034bb5",
+        "2e18bcc7ff5e99a60a5462e68e3ec714cb006178d3ba2553cb5f9ad8b69d81fc"
+      ],
+      "conversation_sources": [
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853329/android/sticker.png?v=1",
+        "https://stickershop.line-scdn.net/stickershop/v1/sticker/921853330/android/sticker.png?v=1"
+      ],
+      "conversation_source_sha256": [
+        "2766e065f6e75aadefbdf7ed062478bad07a8de75c1084318ad95af957a8212a",
+        "e1199de5faa9a98d3dd55bcfd3994be13dcabc23518fc20d9949dc75c10ad0e7"
+      ],
+      "visual_review": {
+        "verified": true,
+        "method": "imagegen_reference_composite_of_two_official_stickers; visual comparison of character, colors, wording, poses; no extra header or footer",
+        "checked_date_jst": "2026-11-15"
+      },
+      "catalogue_method": "deterministic 4-column rendering of all official source PNGs; original pixels/wording preserved",
+      "not_used_2026_11_14": true
+    }
+  ],
+  "prompts": [
+    [
+      "37932819",
+      "友だち",
+      "左の白い吹き出し「まだレジ並んでる？」→右に参考画像の右のスタンプ「レジ混みすぎ」→左の白い吹き出し「どっちの列が早そう？」→右に参考画像の左のスタンプ「こっち早そう」→左の白い吹き出し「そっちにしよう！」"
+    ],
+    [
+      "37777926",
+      "大切な人",
+      "左の白い吹き出し「いつもありがとう」→右に参考画像の左のスタンプ「だいすき」→左の白い吹き出し「私も！また一緒に出かけようね」→右に参考画像の右のスタンプ「今日も大好き！」"
+    ],
+    [
+      "37714986",
+      "友だち",
+      "右の緑の吹き出し「明日の集合、10時に駅前ね」→右に参考画像の左のスタンプ「既読だけでOK！」→右の緑の吹き出し「忙しいと思うから」→右に参考画像の右のスタンプ「返信不要だよ〜」→左の白い吹き出し「ありがとう、確認したよ！」"
+    ],
+    [
+      "37713548",
+      "友だち",
+      "左の白い吹き出し「週末、買い物に行かない？」→右に参考画像の左のスタンプ「今月は節約中！」→左の白い吹き出し「ウィンドウショッピングにしよう」→右に参考画像の右のスタンプ「今日は見るだけ！」"
+    ],
+    [
+      "37713527",
+      "家族",
+      "右の緑の吹き出し「今日、家事を分担しよう」→右に参考画像の右のスタンプ「洗濯お願い！」→左の白い吹き出し「まかせて！」→左に参考画像の左のスタンプ「洗濯回したよ！」→右の緑の吹き出し「ありがとう、干すのはやるね」"
+    ],
+    [
+      "37713509",
+      "家族",
+      "左の白い吹き出し「今、電話してもいい？」→右に参考画像の左のスタンプ「今からお風呂！」→右に参考画像の右のスタンプ「しばらく返信できないよ」→左の白い吹き出し「了解！またあとでね」"
+    ],
+    [
+      "37701266",
+      "家族",
+      "右の緑の吹き出し「夕方のお世話、頼める？」→右に参考画像の右のスタンプ「ごはんお願い！」→左の白い吹き出し「まかせて！」→左に参考画像の左のスタンプ「ごはんあげたよ！」→右の緑の吹き出し「ありがとう、助かった！」"
+    ],
+    [
+      "37701262",
+      "友だち",
+      "左の白い吹き出し「ちょっと話を聞いてもらえる？」→右に参考画像の左のスタンプ「うんうん」→左の白い吹き出し「今日は予定が重なって大変だったんだ」→右に参考画像の右のスタンプ「そうなんだね」→右の緑の吹き出し「ゆっくり話してね」"
+    ],
+    [
+      "37582442",
+      "家族",
+      "右に参考の左のスタンプ「荷物、今日届くよ」→右の緑の吹き出し「午後に届く予定だって」→右に参考の右のスタンプ「受け取れそう？」→左の白い吹き出し「家にいるから大丈夫！」→右の緑の吹き出し「助かる、ありがとう！」"
+    ],
+    [
+      "37582437",
+      "家族",
+      "左の白い吹き出し「そろそろ出かけるよ！」→右に参考の左のスタンプ「忘れ物ない？」→左の白い吹き出し「スマホと財布は持った！」→右に参考の右のスタンプ「鍵、持った？」→左の白い吹き出し「あ、鍵も入れた！ありがとう」"
+    ]
+  ]
+}
